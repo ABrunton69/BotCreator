@@ -14,13 +14,6 @@ print("\u001b[31mTo use the Kick and Ban Command you will require to have a role
 
 client = commands.Bot(command_prefix = "PrefixHere")
 
-# command template
-# @client.command
-# async def *command*(ctx):
-#    command = str("""```*command text*```""")
-#    embed = discord.Embed(title="*Title Of Command*", colour=*colour*)
-#    embed.add_field(name = "*extra text*")
-#    await ctx.send(embed=embed)
 
 @client.event
 async def on_ready():
